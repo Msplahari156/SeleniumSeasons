@@ -6,7 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/selenium-server-standalone-3.141.59.jar" sourcepath=""/>
-	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/webdrivermanager-6.2.0-fat.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/selenium-server-4.24.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
