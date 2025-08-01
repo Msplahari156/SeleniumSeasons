@@ -9,9 +9,10 @@ public class WebDriverMethods2 {
 		WebDriver driver;
 		driver = new ChromeDriver();		
 		driver.get("https://adactinhotelapp.com/");
-		String title=driver.getTitle(); // retrieves and returns the title of page
-		System.out.println(title);
+		// String title=driver.getTitle(); // retrieves and returns the title of page
+		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl()); // retrieves and returns current url
+		System.out.println(driver.getPageSource());
 		driver.quit();
 		
 	}
