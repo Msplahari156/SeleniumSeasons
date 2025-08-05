@@ -10,8 +10,8 @@ import org.openqa.selenium.WebDriver;
 public class ChromeLaunch3 {
 
 	public static void main(String[] args) {
-		new EdgeDriver();
-		//new ChromeDriver();
+		//new EdgeDriver();
+		new ChromeDriver();
 		//new FirefoxDriver();
 		// WebDriver driver=
 		//driver.get("https://adactinhotelapp.com/");
