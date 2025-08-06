@@ -11,6 +11,7 @@ public class WebMethodElements5 {
 		driver.manage().window().maximize();
 		System.out.println(driver.findElement(By.xpath("/html/body/div[2]/div[2]/nav/div/div[3]/ul/li[1]/div/ul/li[1]/a")).isDisplayed());
 		System.out.println(driver.findElement(By.xpath("/html/body/div[2]/div[2]/nav/div/div[2]/ul/li[1]/a")).isDisplayed());
+		//display true wil come //mousehover chesthe untundo aithe false isthundi
 		
 		driver.quit();
 		
