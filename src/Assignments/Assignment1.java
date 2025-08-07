@@ -17,8 +17,9 @@ public class Assignment1 {
 		Thread.sleep(3000);
 		System.out.println(driver.findElement(By.id("flash")).getText());		
 		System.out.println(driver.findElement(By.id("flash")).getCssValue("border-color"));	
-         WebElement logoutbutton=driver.findElement(By.cssSelector("a.button.secondary.radius"));
-         logoutbutton.click();		
+         //WebElement logoutbutton=driver.findElement(By.cssSelector("a.button.secondary.radius"));
+         //logoutbutton.click();		
+		driver.findElement(By.linkText("Logout")).click();
 		Thread.sleep(3000);		
 		System.out.println(driver.findElement(By.id("flash")).getText());		
 		Thread.sleep(3000);		
