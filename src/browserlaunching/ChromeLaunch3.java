@@ -11,12 +11,12 @@ public class ChromeLaunch3 {
 
 	public static void main(String[] args) {
 		//new EdgeDriver();
-		new ChromeDriver();
+		//new ChromeDriver();
 		//new FirefoxDriver();
 		// WebDriver driver=
 		//driver.get("https://adactinhotelapp.com/");
 		//new SafariDriver(); only in mac
-		//new InternetExplorerDriver();
+		new InternetExplorerDriver();
 
 	}
 

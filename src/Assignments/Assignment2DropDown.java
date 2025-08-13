@@ -10,7 +10,7 @@ public class Assignment2DropDown {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); //driver.manage().window().fullscreen();
 		driver.findElement(By.linkText("Create new account")).click();
 		Thread.sleep(3000);
 		
