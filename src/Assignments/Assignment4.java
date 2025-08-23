@@ -11,7 +11,7 @@ public class Assignment4 {
 
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.edge.driver", "C:\\Users\\lenovo\\Downloads\\edgedriver_win64\\msedgedriver.exe");
-		WebDriver driver;
+		WebDriver driver=null;
 		System.out.println("Enter the browser to launch");
 		Scanner input=new Scanner(System.in);
 		String browser=input.next();
