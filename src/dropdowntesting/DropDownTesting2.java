@@ -13,9 +13,9 @@ public class DropDownTesting2 {
 		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
 		//using select class
-		/*WebElement drop=driver.findElement(By.id("searchDropdownBox"));
+		WebElement drop=driver.findElement(By.id("searchDropdownBox"));
 		Select s1=new Select(drop);
-		s1.selectByIndex(11);*/
+		s1.selectByIndex(11);
 		
 		//selectByIndex(int):void
 		new Select(driver.findElement(By.id("searchDropdownBox"))).selectByIndex(11); //beautycomes up
