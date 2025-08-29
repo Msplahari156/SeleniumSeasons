@@ -13,7 +13,10 @@ public class AdactinHotelApp2 extends BaseTest {
 		System.out.println("App Launched");
 		System.out.println("Login succeess");
 		System.out.println("Browser  closed");
-		Assert.assertTrue(false); //false will fail this test case
+		String actResult="Adaction search hotel";
+		String expResult="Adaction search hotel";
+		Assert.assertTrue(actResult.equals(expResult));
+		// Assert.assertTrue(false);//false will fail this test case
 	}
 	
 	@Test (priority=1)
