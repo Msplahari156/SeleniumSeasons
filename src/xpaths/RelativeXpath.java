@@ -1,0 +1,29 @@
+package xpaths;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class RelativeXpath {
+
+	WebDriver driver;
+	@BeforeMethod
+	public void setUp() {
+		driver=new ChromeDriver();
+		driver.get("https://adactinhotelapp.com/HotelAppBuild2/");
+		driver.manage().window().maximize();
+		
+		
+	}
+	
+	@Test
+	public void loginTest() throws InterruptedException {
+		
+		driver.findElement(By.xpath("//input[@id='username']")).sendKeys("reyaz123");
+		driver.findElement(By.xpath("//input[@class='login_input' and @type='password']")).sendKeys("reyaz123");
+		Thread.sleep(3000);
+		driver.quit();
+	}
+}

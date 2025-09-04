@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.AdactinHotelApp2">
+      <class name="Assignments.Assignment5DoubleClick">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="loginTest"/>
-          <include name="ChangePasswordTest"/>
+          <include name="doubleClick"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- testng.AdactinHotelApp2 -->
+      </class> <!-- Assignments.Assignment5DoubleClick -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

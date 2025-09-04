@@ -18,7 +18,7 @@ public class DropDownTesting2 {
 		s1.selectByIndex(11);
 		
 		//selectByIndex(int):void
-		new Select(driver.findElement(By.id("searchDropdownBox"))).selectByIndex(11); //beautycomes up
+		new Select(driver.findElement(By.id("searchDropdownBox"))).selectByIndex(11); //beauty comes up
 		//selectByValue(String):void
 		new Select(driver.findElement(By.id("searchDropdownBox"))).selectByValue("search-alias=stripbooks");
 		//selectByVisibleText(String):void
