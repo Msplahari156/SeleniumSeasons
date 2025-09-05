@@ -36,12 +36,18 @@ public class Assignment5DoubleClick {
 		}
 		
 		Actions action=new Actions(driver);
+		
+		for(int i=0;i<5;i++)
+		{
 		action.moveToElement(driver.findElement(By.xpath("//button[normalize-space()='Intractions']")))
 		.pause(3000)
         .click(driver.findElement(By.xpath("//a[text()='Double Click']")))
 		.pause(3000)
 		.build().perform();
-		
+		Thread.sleep(5000);
+		driver.navigate().back();		
+		Thread.sleep(5000);
+		}
 	}
 	
 	@AfterMethod
