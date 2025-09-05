@@ -12,6 +12,8 @@ public class BaseTest {
 		System.out.println("browser started");
 		System.out.println("App Launched");
 	}
+
+
 @AfterMethod
 
 public void tearDown() {

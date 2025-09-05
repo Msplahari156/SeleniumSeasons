@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-05T19:49:58 IST" name="Default suite" finished-at="2025-09-05T19:51:38 IST" duration-ms="100103">
+  <suite started-at="2025-09-05T21:17:44 IST" name="Default suite" finished-at="2025-09-05T21:18:38 IST" duration-ms="53895">
     <groups>
     </groups>
-    <test started-at="2025-09-05T19:49:58 IST" name="Default test" finished-at="2025-09-05T19:51:38 IST" duration-ms="100103">
-      <class name="Assignments.Assignment5DoubleClick">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Assignments.Assignment5DoubleClick@413d1baf]" started-at="2025-09-05T19:49:58 IST" name="setUp" finished-at="2025-09-05T19:50:02 IST" duration-ms="3503" status="PASS">
+    <test started-at="2025-09-05T21:17:44 IST" name="Default test" finished-at="2025-09-05T21:18:38 IST" duration-ms="53895">
+      <class name="handlings.FrameHandling2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:handlings.FrameHandling2@413d1baf]" started-at="2025-09-05T21:17:44 IST" name="setUp" finished-at="2025-09-05T21:18:20 IST" duration-ms="35654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="doubleClick()[pri:0, instance:Assignments.Assignment5DoubleClick@413d1baf]" started-at="2025-09-05T19:50:02 IST" name="doubleClick" finished-at="2025-09-05T19:51:33 IST" duration-ms="91252" status="PASS">
+        <test-method signature="frameHandling()[pri:0, instance:handlings.FrameHandling2@413d1baf]" started-at="2025-09-05T21:18:20 IST" name="frameHandling" finished-at="2025-09-05T21:18:32 IST" duration-ms="12864" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doubleClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Assignments.Assignment5DoubleClick@413d1baf]" started-at="2025-09-05T19:51:33 IST" name="tearDown" finished-at="2025-09-05T19:51:38 IST" duration-ms="5287" status="PASS">
+        </test-method> <!-- frameHandling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:handlings.FrameHandling2@413d1baf]" started-at="2025-09-05T21:18:32 IST" name="tearDown" finished-at="2025-09-05T21:18:38 IST" duration-ms="5320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Assignments.Assignment5DoubleClick -->
+      </class> <!-- handlings.FrameHandling2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
