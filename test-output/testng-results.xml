@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-05T21:17:44 IST" name="Default suite" finished-at="2025-09-05T21:18:38 IST" duration-ms="53895">
+  <suite started-at="2025-09-09T10:41:35 IST" name="Default suite" finished-at="2025-09-09T10:42:12 IST" duration-ms="37132">
     <groups>
     </groups>
-    <test started-at="2025-09-05T21:17:44 IST" name="Default test" finished-at="2025-09-05T21:18:38 IST" duration-ms="53895">
-      <class name="handlings.FrameHandling2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:handlings.FrameHandling2@413d1baf]" started-at="2025-09-05T21:17:44 IST" name="setUp" finished-at="2025-09-05T21:18:20 IST" duration-ms="35654" status="PASS">
+    <test started-at="2025-09-09T10:41:35 IST" name="Default test" finished-at="2025-09-09T10:42:12 IST" duration-ms="37132">
+      <class name="Assignments.Assignment7AlertHandling">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Assignments.Assignment7AlertHandling@413d1baf]" started-at="2025-09-09T10:41:35 IST" name="setUp" finished-at="2025-09-09T10:41:45 IST" duration-ms="10404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="frameHandling()[pri:0, instance:handlings.FrameHandling2@413d1baf]" started-at="2025-09-05T21:18:20 IST" name="frameHandling" finished-at="2025-09-05T21:18:32 IST" duration-ms="12864" status="PASS">
+        <test-method signature="alertHandling()[pri:0, instance:Assignments.Assignment7AlertHandling@413d1baf]" started-at="2025-09-09T10:41:45 IST" name="alertHandling" finished-at="2025-09-09T10:42:07 IST" duration-ms="21431" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- frameHandling -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:handlings.FrameHandling2@413d1baf]" started-at="2025-09-05T21:18:32 IST" name="tearDown" finished-at="2025-09-05T21:18:38 IST" duration-ms="5320" status="PASS">
+        </test-method> <!-- alertHandling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Assignments.Assignment7AlertHandling@413d1baf]" started-at="2025-09-09T10:42:07 IST" name="tearDown" finished-at="2025-09-09T10:42:12 IST" duration-ms="5245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- handlings.FrameHandling2 -->
+      </class> <!-- Assignments.Assignment7AlertHandling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
