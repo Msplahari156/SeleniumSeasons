@@ -21,7 +21,7 @@ public class WebElementMethods4 {
 		System.out.println(driver.findElement(By.id("username")).getRect().getHeight());
 		System.out.println(driver.findElement(By.id("username")).getRect().getWidth());
         
-        System.out.println(driver.findElement(By.id("username")).getTagName());//in html < input="userame"></>
+        System.out.println(driver.findElement(By.id("username")).getTagName());//in html < input="username"></>
         
         driver.quit();
    

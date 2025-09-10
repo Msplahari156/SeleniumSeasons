@@ -3,13 +3,11 @@ package Assignments;
 import java.util.List;
 import java.util.Set;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.testng.Assert;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -31,7 +29,7 @@ public class Assignment6WindowHandling {
 	  String homeHandle=driver.getWindowHandle();
 	  driver.switchTo().frame("a077aa5e");
 	 driver.findElement(By.xpath("//img[contains(@src,'Jmeter720.png')]")).click();
-	 Thread.sleep(10000);
+	 Thread.sleep(1000);
 	 driver.switchTo().defaultContent(); //shifts frame to page
 	 
 	 Set<String> allWindowHandles= driver.getWindowHandles();
@@ -45,7 +43,7 @@ public class Assignment6WindowHandling {
 			 break;
 		 }
 	 } 
-	 
+	 //second page is switched now we are retrieving the elements
 	Thread.sleep(3000);
 	
 
@@ -59,7 +57,7 @@ public class Assignment6WindowHandling {
 	Thread.sleep(3000);
 	
 	  driver.switchTo().window(homeHandle);
-	  Thread.sleep(3000);
+	  Thread.sleep(1000);
 	  
 	}
 	

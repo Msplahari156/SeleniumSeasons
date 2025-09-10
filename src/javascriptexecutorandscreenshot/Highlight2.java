@@ -11,7 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class Highlight1 {
+public class Highlight2 {
 	
 	WebDriver driver;
 	@BeforeMethod
@@ -23,19 +23,20 @@ public class Highlight1 {
 
 	@Test
 	public void alertHandlingTest() throws InterruptedException {
-    
-     WebElement userName=driver.findElement(By.xpath("//input[@name='username']"));     
-     highlightElement(userName);    
+     JavascriptExecutor js=(JavascriptExecutor) driver;
+     Thread.sleep(3000);
+     WebElement userName=driver.findElement(By.xpath("//input[@name='username']"));
+     js.executeScript("arguments[0].style.border='3px solid red'", userName);
      userName.sendKeys("reyaz0806");
      Thread.sleep(3000);
      
      WebElement password=driver.findElement(By.xpath("//input[@name='password']"));
-     highlightElement(password);
+     js.executeScript("arguments[0].style.border='3px solid red'",password);
      password.sendKeys("reyaz123");
      Thread.sleep(3000);
      
      WebElement loginButton=driver.findElement(By.xpath("//input[@name='login']"));
-     highlightElement(loginButton);
+     js.executeScript("arguments[0].style.border='3px solid red'", loginButton);
      loginButton.click();
      Thread.sleep(3000);
      
@@ -43,7 +44,7 @@ public class Highlight1 {
      Thread.sleep(2000);
      
      WebElement logoutButton=driver.findElement(By.xpath("//a[text()='Logout']"));
-     highlightElement(logoutButton);
+		js.executeScript("arguments[0].style.border='3px solid red'", logoutButton);
 		logoutButton.click();
 		Thread.sleep(2000);
 		
@@ -51,7 +52,7 @@ public class Highlight1 {
 		Thread.sleep(2000);
 		
 		WebElement loginAgainLink=driver.findElement(By.xpath("//a[text()='Click here to login again']"));
-		   highlightElement(loginAgainLink);
+		js.executeScript("arguments[0].style.border='3px solid red'", loginAgainLink);
 		loginAgainLink.click();
 		Thread.sleep(2000);
 		
@@ -59,21 +60,6 @@ public class Highlight1 {
 	 
 	}
 	
-	
-	
-	private void highlightElement(WebElement element) {
-		JavascriptExecutor js=(JavascriptExecutor) driver;
-		 js.executeScript("arguments[0].style.border='3px solid red'", element);
-		 try {
-			 Thread.sleep(2000);
-		 }
-		 catch(InterruptedException e) {
-			 e.printStackTrace();
-		 }
-		 js.executeScript("arguments[0].style.border=''", element);
-		
-	}
-
 	@AfterMethod
 	public void tearDown()
 	{

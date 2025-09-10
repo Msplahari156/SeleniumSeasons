@@ -7,6 +7,7 @@ public class TypeCast {
 		double x=3.14;
 		int z=(int)x;
 		System.out.println(z);
+		System.out.println(y);
 
 	}
 

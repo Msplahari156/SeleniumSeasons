@@ -8,7 +8,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class JavascriptExecutorDemo1 {
+public class JavascriptExecutorDemo2 {
 	WebDriver driver;
 	@BeforeMethod
 	public void setUp() {
@@ -20,11 +20,7 @@ public class JavascriptExecutorDemo1 {
 	@Test
 	public void scrollTest() throws InterruptedException {
  JavascriptExecutor js=(JavascriptExecutor) driver;
- js.executeScript("window.scrollTo(0,2000);");
- Thread.sleep(3000);
- js.executeScript("window.scrollTo(0,2000);");
-
-
+ js.executeScript("window.scrollTo(0,document.body.scrollHeight);");
  Thread.sleep(3000);
 	}
 	

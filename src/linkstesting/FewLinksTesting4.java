@@ -17,6 +17,16 @@ public class FewLinksTesting4 {
 		
 		driver.manage().window().maximize();
 		
+
+		try {
+		driver.findElement(By.xpath("//button[text()='Continue shopping']")).click();
+		Thread.sleep(3000);
+		}
+		catch(Exception e) {
+			System.out.println("Exception came");
+		}
+		
+		
 		WebElement block=driver.findElement(By.xpath("//*[@id=\"navFooter\"]/div[1]/div/div[5]"));
 		
 		List<WebElement> allLinksInBlock=block.findElements(By.tagName("a"));
